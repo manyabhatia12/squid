@@ -1,0 +1,63 @@
+<!Doctype Html>
+<html>
+    <head>
+        <title>Html forms</title>
+    </head>
+    <body>
+        <form>
+            <label for="First Name">first name:</label><br>
+            <input type="text" id="firstname" name="firstname"placeholder="enter your firstname" autofocus ><br>
+           <label>Last Name</label><br>
+           <input type="text" id="lastname" name="lastname"placeholder="enter yourlast name"autofocus><br>
+        <label for="pin">pin:</label>
+        <input type="text" id="pin" name="pin" maxlength="6" size="5" autofocus><br>
+         <input type="sumit" value="sumit"><br>
+         <input type="button"value="click me!" onclick="alert('welcome!')">
+    </form>
+    <hr>
+    <form>
+        <label for="username">username</label><br>
+        <input type="text" id="username" name="username" value="dsu"><br>
+        <label for="pwd">password</label><br>
+        <input type="password" id="pwd" name="pwd"autofocus><br>
+        <label for="emal">enter your mail:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="comment">comments:</label><br>
+        <textarea id="comment"name="comment"rows="10"cols="20"></textarea>
+    </form>
+    </body>
+    <hr>
+    <p>
+        choose your favourite programming language:
+    </p>
+    <form>
+        <input type="radio" id="c" name="fav_language" value="c"checked>
+        <label for="c">C</label><br>
+        <input type="radio" id="java" name="fav_language" value="java"checked>
+        <label for="java">java</label><br>
+        <input type="checkbox" id="c" name="fav_language" value="c"checked>
+        <label for="c">C</label><br>
+        <label for="my file">select a file:</label>
+        <input type="file"id="my file" name="myfile"multiple><br>
+        <label for="birthday">birthday:</label>
+        <input type="date"id="birthday" name="birthday"><br>
+        <label for="appt">select a time:</label>
+        <input type="time" id="appt" name="appt"><br>
+        <label>select yor favourite color</label>
+        <input type="color" id="favcolor" name="favcolor">
+    </form>
+    <hr>
+    <body>
+    <form>
+        <label for="states">select a state</label>
+        <select id="states" name="states"size="3">
+            <option value="Rj">rajasthan</option>
+            <option value="kl">kerala</option>
+            <option value="del">delhi</option>
+        </select>
+        <input type="sumit" value="sumit" size="3">
+    </form>
+</body>
+</html>
+
+ 
